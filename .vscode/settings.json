@@ -2,5 +2,9 @@
     "files.associations": {
         "typeinfo": "cpp",
         "ostream": "cpp"
+    },
+    "files.exclude": {
+        "**/*.vcxproj": true,
+        "**/*.vcxproj.*": true
     }
 }
