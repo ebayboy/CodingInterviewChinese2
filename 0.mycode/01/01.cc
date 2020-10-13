@@ -33,11 +33,11 @@ public:
     CMyString & operator=(CMyString &str)
     {
         cout << "operator=" << endl;
-        if (m_pData) {
-            delete [] m_pData;
+        if (this->m_pData) {
+            delete [] this->m_pData;
         }
-        m_pData = new char[strlen(str.m_pData) + 1];
-        strcpy(m_pData, str.m_pData);
+        this->m_pData = new char[strlen(str.m_pData) + 1];
+        strcpy(this->m_pData, str.m_pData);
 
         //this是指向该对象的指针，*this返回该对象。
         return *this;
