@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+//赋值运算符
 //如下为类型CMyString的声明，请为该类型添加赋值运算符函数。
 
 using namespace std;

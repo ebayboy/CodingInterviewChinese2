@@ -4,6 +4,7 @@
         "ostream": "cpp"
     },
     "files.exclude": {
+        "**/*.exe": true,
         "**/*.vcxproj": true,
         "**/*.vcxproj.*": true
     }
