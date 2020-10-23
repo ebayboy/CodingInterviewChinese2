@@ -16,6 +16,9 @@ using namespace std;
 将链表存储到栈中， 之后遍历栈将结果存储到vector中，打印vector
 */
 
+/*
+    1. statck use
+*/
 struct ListNode
 {
     int val;
